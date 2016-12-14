@@ -47,7 +47,7 @@ def astar(start_pos, neighbors, goal, start_g, cost, heuristic, limit=10000,
                        position to another.
       heuristic(pos) - A function returning an estimate of the total cost
                        remaining for reaching goal from the given position.
-                       Overestimates can yield suboptimal paths.
+                       Overestimates can yield suboptimal path_save.
       limit          - The maximum number of positions to search.
       debug(nodes)   - This function will be called with a dictionary of all
                        nodes.
